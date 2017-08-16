@@ -1,0 +1,25 @@
+{
+    "name": "lukasjankowski/laravel-safepass",
+    "description": "A laravel 5 password validation package for checking if passwords are really secure",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Lukas Jankowski",
+            "email": "LukasJankowski@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LukasJankowski\\SafePass\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LukasJankowski\\SafePass\\SafePassServiceProvider"
+            ]
+        }
+    }
+}
