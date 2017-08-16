@@ -15,6 +15,9 @@
             "LukasJankowski\\SafePass\\": "src/"
         }
     },
+    "require": {
+        "bjeavons/zxcvbn-php": "^0.3.0"
+    },
     "extra": {
         "laravel": {
             "providers": [
