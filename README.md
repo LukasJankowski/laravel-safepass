@@ -1,3 +1,5 @@
+# Unmaintained
+
 Laravel-Safepass for Laravel 5
 =============================
 
